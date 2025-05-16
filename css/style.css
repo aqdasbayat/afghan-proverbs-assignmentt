@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: beige;
+      align-items: center;
+    }
+
+header {
+    background-color: brown;
+    margin: 0% 0% 0% 0%;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: rgb(235, 187, 99);
+}
+
+.navlist {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlist li a:hover {
+    color: red;
+}
+
+section div {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+h2 {
+    text-align: center;
+    color: brown;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+h3 {
+    text-align: justify;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#search {
+    height: auto;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+}
+
+.flex-container {
+  animation: fadeInOut 15s infinite;
+}
+
+@keyframes fadeInOut {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.flex-item {
+    flex: 1 1 250px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: auto;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+.flex-container1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#name {
+    height: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border: solid brown;
+}
+
+#proverb {
+    height: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border: solid rgb(24, 47, 24);
+}
+
+#submit {
+    color: white;
+    background-color: brown;
+    height: auto;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border:  solid navajowhite;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
